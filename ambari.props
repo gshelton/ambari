@@ -1,0 +1,11 @@
+CLUSTER_NAME=masaka
+AMBARI_ADMIN_USER=admin
+AMBARI_ADMIN_PASSWORD=admin
+AMBARI_HOST=masaka.uganda.ug
+KDC_HOST=masaka.uganda.ug
+REALM=UGANDA.COM
+KERBEROS_CLIENTS=masaka.uganda.ug
+
+##### Notes #####
+#1. KERBEROS_CLIENTS - Comma separated list of Kerberos clients in case of multinode cluster
+#2. Admin principal is admin/admin and password is welcome1
